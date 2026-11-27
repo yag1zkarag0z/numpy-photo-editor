@@ -1,8 +1,10 @@
 # NumPy Photo Editor
 
-A local photo editor built with NumPy and Streamlit.
+A photo editor built with NumPy and Streamlit.
 
 I created this project to learn NumPy through practical image processing.
+
+[Try the app](https://numpy-photo-editor-zcsxn3upuaz8cabnrrmqg7.streamlit.app/) · [NumPy study notebook](https://github.com/yag1zkarag0z/NUMPY)
 
 ## Features
 
@@ -45,4 +47,6 @@ Python · NumPy · Streamlit · Pillow
 
 ## Notes
 
-Images are processed locally. The working image and exported PNG are resized to a maximum of 1600 pixels on the longest side.
+Images are processed by the Streamlit server. When run on your computer, processing happens locally. The working image and exported PNG are resized to a maximum of 1600 pixels on the longest side.
+
+Built with Codex support. I reviewed the NumPy code for brightness, grayscale conversion, and cropping as part of the project.
